@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manoir d'Exception à Allinges - 1 400 000 €</title>
+    <title>Manoir d'exception à Allinges - 1 397 000 €</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Verdana:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,10 +13,10 @@
         }
 
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Open Sans', sans-serif;
             line-height: 1.6;
             color: #333;
-            background: #fafafa;
+            background: #095228;
         }
 
         .container {
@@ -26,7 +27,7 @@
 
         /* Header */
         header {
-            background: linear-gradient(135deg, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23d4a574" width="1200" height="600"/></svg>');
+            background: linear-gradient(135deg, rgba(9,82,40,0.7), rgba(9,82,40,0.5)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23d4a574" width="1200" height="600"/></svg>');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -45,14 +46,15 @@
         }
 
         .hero-title {
-            font-size: 3.5rem;
+            font-family: 'Verdana', sans-serif;
+            font-size: 4.5rem;
             margin-bottom: 1rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
             letter-spacing: 2px;
         }
 
         .hero-subtitle {
-            font-size: 1.5rem;
+            font-size: 2rem;
             margin-bottom: 2rem;
             opacity: 0.9;
         }
@@ -121,6 +123,7 @@
 
         .section-title {
             text-align: center;
+            font-family: 'Verdana', sans-serif;
             font-size: 2.5rem;
             margin-bottom: 3rem;
             color: #333;
@@ -159,12 +162,6 @@
 
         .info-card:hover {
             transform: translateY(-5px);
-        }
-
-        .info-icon {
-            font-size: 3rem;
-            color: #d4a574;
-            margin-bottom: 20px;
         }
 
         .info-value {
@@ -281,10 +278,9 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        .feature-icon {
-            font-size: 2rem;
-            color: #d4a574;
-            margin-right: 15px;
+        .feature-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
         }
 
         /* Contact */
@@ -375,36 +371,32 @@
 
     <header id="accueil">
         <div class="hero-content">
-            <h1 class="hero-title">Manoir d'Exception</h1>
-            <p class="hero-subtitle">Allinges - Proche Genève et Lac Léman</p>
+            <h1 class="hero-title">Manoir d'exception</h1>
+            <p class="hero-subtitle">Allinges - proche genève et lac léman</p>
             <div class="price">1 397 000 €</div>
-            <a href="#contact" class="btn">Nous Contacter</a>
+            <a href="#contact" class="btn">Nous contacter</a>
         </div>
     </header>
 
     <section id="propriete" class="property-info">
         <div class="container">
-            <h2 class="section-title">Informations Générales</h2>
+            <h2 class="section-title">informations générales</h2>
             <div class="info-grid">
                 <div class="info-card fade-in">
-                    <div class="info-icon">🏠</div>
                     <div class="info-value">400 m²</div>
-                    <div class="info-label">Surface Habitable</div>
+                    <div class="info-label">surface habitable</div>
                 </div>
                 <div class="info-card fade-in">
-                    <div class="info-icon">🚪</div>
-                    <div class="info-value">10 Pièces</div>
-                    <div class="info-label">Chambres & Salons</div>
+                    <div class="info-value">10 pièces</div>
+                    <div class="info-label">chambres & salons</div>
                 </div>
                 <div class="info-card fade-in">
-                    <div class="info-icon">🌳</div>
                     <div class="info-value">7000 m²</div>
-                    <div class="info-label">Parc Arboré</div>
+                    <div class="info-label">parc arboré</div>
                 </div>
                 <div class="info-card fade-in">
-                    <div class="info-icon">📅</div>
                     <div class="info-value">XIXème</div>
-                    <div class="info-label">Siècle</div>
+                    <div class="info-label">siècle</div>
                 </div>
             </div>
         </div>
@@ -412,42 +404,42 @@
 
     <section id="galerie" class="gallery">
         <div class="container">
-            <h2 class="section-title">Galerie Photos</h2>
+            <h2 class="section-title">galerie photos</h2>
             <div class="image-grid">
                 <div class="gallery-item fade-in">
                     <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23d4a574' width='400' height='300'/><text x='200' y='150' text-anchor='middle' fill='white' font-size='20'>Façade Principale</text></svg>" alt="Façade du manoir">
                     <div class="gallery-overlay">
-                        <div class="gallery-title">Façade Principale</div>
+                        <div class="gallery-title">façade principale</div>
                     </div>
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%238b7355' width='400' height='300'/><text x='200' y='150' text-anchor='middle' fill='white' font-size='18'>Salon de Réception</text></svg>" alt="Salon de réception">
                     <div class="gallery-overlay">
-                        <div class="gallery-title">Salon de Réception</div>
+                        <div class="gallery-title">salon de réception</div>
                     </div>
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23a68b5b' width='400' height='300'/><text x='200' y='150' text-anchor='middle' fill='white' font-size='20'>Salle à Manger</text></svg>" alt="Salle à manger">
                     <div class="gallery-overlay">
-                        <div class="gallery-title">Salle à Manger</div>
+                        <div class="gallery-title">salle à manger</div>
                     </div>
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23c19960' width='400' height='300'/><text x='200' y='150' text-anchor='middle' fill='white' font-size='20'>Chambres Mansardées</text></svg>" alt="Chambres">
                     <div class="gallery-overlay">
-                        <div class="gallery-title">Chambres Mansardées</div>
+                        <div class="gallery-title">chambres mansardées</div>
                     </div>
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%236b8e23' width='400' height='300'/><text x='200' y='150' text-anchor='middle' fill='white' font-size='20'>Parc de 7000 m²</text></svg>" alt="Parc">
                     <div class="gallery-overlay">
-                        <div class="gallery-title">Parc de 7000 m²</div>
+                        <div class="gallery-title">parc de 7000 m²</div>
                     </div>
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23556b2f' width='400' height='300'/><text x='200' y='150' text-anchor='middle' fill='white' font-size='18'>Vue sur le Domaine</text></svg>" alt="Vue domaine">
                     <div class="gallery-overlay">
-                        <div class="gallery-title">Vue sur le Domaine</div>
+                        <div class="gallery-title">vue sur le domaine</div>
                     </div>
                 </div>
             </div>
@@ -456,18 +448,18 @@
 
     <section class="description">
         <div class="container">
-            <h2 class="section-title">La Propriété</h2>
+            <h2 class="section-title">la propriété</h2>
             <div class="description-content fade-in">
                 <p>
-                    <span class="highlight">Proche Genève et Lac Léman</span>, à 25 minutes de la frontière d'Anières, cette propriété de charme saura séduire les amoureux de la nature, du calme et des grands espaces.
+                    <span class="highlight">proche genève et lac léman</span>, à 25 minutes de la frontière d'anières, cette propriété de charme saura séduire les amoureux de la nature, du calme et des grands espaces dans un parc verdoyant entouré d'arbres centenaires.
                 </p>
                 <br>
                 <p>
-                    Elle date du <span class="highlight">19ème siècle</span>, est complètement rénovée (1990) et habitable. Sur environ <span class="highlight">400 m² de surface habitable</span> hors dépendances et annexes, toutes les pièces aux surfaces généreuses vous invitent à profiter au maximum de leurs destinations qui peuvent varier aux grés de vos envies et choix.
+                    elle date du <span class="highlight">19ème siècle</span>, est complètement rénovée (1990) et habitable. cette maison en pierre authentique avec ses <span class="highlight">7 chambres transformables selon les envies</span> vous invite à concrétiser tous vos rêves dans un cadre exceptionnel.
                 </p>
                 <br>
                 <p>
-                    Sur plus de <span class="highlight">7000 m² de terrain plat et majestueusement arboré</span>, la tranquillité sera votre alliée. Une annexe en entrée de la propriété d'environ 90 m² offre un joli potentiel de rénovation.
+                    sur plus de <span class="highlight">7000 m² de terrain plat et majestueusement arboré</span>, la tranquillité sera votre alliée. une annexe en entrée de la propriété d'environ 90 m² offre un joli potentiel de rénovation. le rêve accessible à 25 minutes de genève...
                 </p>
             </div>
         </div>
@@ -475,48 +467,42 @@
 
     <section id="caracteristiques" class="features">
         <div class="container">
-            <h2 class="section-title">Caractéristiques</h2>
+            <h2 class="section-title">caractéristiques</h2>
             <div class="features-grid">
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🏛️</div>
                     <div>
-                        <h3>Architecture Historique</h3>
-                        <p>Manoir du XIXème siècle entièrement rénové</p>
+                        <h3>architecture historique</h3>
+                        <p>manoir du XIXème siècle entièrement rénové</p>
                     </div>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🔥</div>
                     <div>
-                        <h3>Cheminées d'Époque</h3>
-                        <p>Authentiques cheminées en pierre</p>
+                        <h3>cheminées d'époque</h3>
+                        <p>authentiques cheminées en pierre</p>
                     </div>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🌲</div>
                     <div>
-                        <h3>Poutres Apparentes</h3>
-                        <p>Charpente traditionnelle préservée</p>
+                        <h3>poutres apparentes</h3>
+                        <p>charpente traditionnelle préservée</p>
                     </div>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🏞️</div>
                     <div>
-                        <h3>Parc Paysager</h3>
+                        <h3>parc paysager</h3>
                         <p>7000 m² de terrain plat et arboré</p>
                     </div>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🚗</div>
                     <div>
-                        <h3>Proximité Genève</h3>
+                        <h3>proximité genève</h3>
                         <p>25 minutes de la frontière suisse</p>
                     </div>
                 </div>
                 <div class="feature-item fade-in">
-                    <div class="feature-icon">🔧</div>
                     <div>
-                        <h3>Annexe 90 m²</h3>
-                        <p>Potentiel de rénovation supplémentaire</p>
+                        <h3>annexe 90 m²</h3>
+                        <p>potentiel de rénovation supplémentaire</p>
                     </div>
                 </div>
             </div>
@@ -525,29 +511,32 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title" style="color: white;">Contact</h2>
+            <h2 class="section-title" style="color: white;">contact</h2>
             <div class="contact-info">
                 <div class="contact-item">
-                    <strong>Prix :</strong> 1 397 000 €
+                    <strong>prix :</strong> 1 397 000 €
                 </div>
                 <div class="contact-item">
-                    📧 contact@immobilier-allinges.fr
+                    contactez lancibelle@gmail.com
                 </div>
                 <div class="contact-item">
-                    📞 +33 (0)4 XX XX XX XX
+                    isabelle dajon au +41 79 706 46 21
                 </div>
                 <div class="contact-item">
-                    📍 Allinges, Haute-Savoie, France
+                    allinges, haute-savoie, france
+                </div>
+                <div class="contact-item" style="margin-top: 30px; font-style: italic;">
+                    les visites seront organisées par notre courtier en france
                 </div>
                 <br>
-                <a href="mailto:contact@immobilier-allinges.fr" class="btn">Demander une Visite</a>
+                <a href="mailto:lancibelle@gmail.com" class="btn">demander une visite</a>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Manoir d'Allinges. Tous droits réservés.</p>
+            <p>&copy; 2025 manoir d'allinges. tous droits réservés.</p>
         </div>
     </footer>
 
